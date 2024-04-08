@@ -940,6 +940,7 @@ input {
 
 .form-textarea {
     border-color: #4D5AE5; 
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .form-checkbox {
@@ -1009,7 +1010,11 @@ input {
     color: #8e8f99;
 }
 
-input:checked {
+input:focus {
+    fill: #4D5AE5;
+}
+
+input:checked .form-checkbox-span {
     background-color: #404bbf;
 }
 
