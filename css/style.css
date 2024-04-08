@@ -982,7 +982,7 @@ input {
     background-color: #404BBF;
 }
 
-.form-checkbox-span {
+.label-span {
     width: 16px; 
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -1003,7 +1003,7 @@ input {
     margin-bottom: 24px;
 }
 
-.form-checkbox-label {
+.label-privacy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
