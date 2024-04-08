@@ -939,8 +939,15 @@ input {
 }
 
 .form-textarea {
-    border-color: #4D5AE5; 
     border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.form-input:focus + .modal-icon {
+    fill: #4d5ae5;
+}
+
+.form-textarea:focus {
+    border-color: #4D5AE5; 
 }
 
 .form-checkbox {
